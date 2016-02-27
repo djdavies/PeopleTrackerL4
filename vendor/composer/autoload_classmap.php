@@ -7,10 +7,16 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
+    'CreateGoogleResultsTable' => $baseDir . '/app/database/migrations/2016_02_27_155811_create_googleResults_table.php',
+    'CreatePeopleTable' => $baseDir . '/app/database/migrations/2016_02_27_154713_create_people_table.php',
     'DatabaseSeeder' => $baseDir . '/app/database/seeds/DatabaseSeeder.php',
+    'GoogleResult' => $baseDir . '/app/models/GoogleResult.php',
+    'GoogleResultsTableSeeder' => $baseDir . '/app/database/seeds/GoogleResultsTableSeeder.php',
     'HomeController' => $baseDir . '/app/controllers/HomeController.php',
     'IlluminateQueueClosure' => $vendorDir . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
     'Normalizer' => $vendorDir . '/patchwork/utf8/src/Normalizer.php',
+    'People' => $baseDir . '/app/models/People.php',
+    'PeopleTableSeederTest' => $baseDir . '/app/database/seeds/PeopleTableSeederTest.php',
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php',
     'TestCase' => $baseDir . '/app/tests/TestCase.php',
     'User' => $baseDir . '/app/models/User.php',
